@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    background-color: #4cf8cad0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+header{
+    background-color: rgb(8, 123, 64);
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.505);
+    -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.502);
+    -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.516);
+
+}
+
+nav{
+    display: inline;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+a:hover{
+    color: blue;
+}
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: right;
+}
+
+main{
+    margin: 0px 200px 0px 200px;
+    margin-top: 0px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+
+img.img{
+    margin-left: 7%;
+    margin-right: auto;
+
+}
+
+img.img-android{
+    margin-left: 30%;
+
+}
+
+section.video{
+    background: rgb(8, 123, 64);
+    margin: 0px 200px 0px 200px;
+    box-shadow: inset 0px 5px 20px 10px rgba(0, 0, 0, 0.168);
+
+}
+
+iframe{
+    margin-left: 8%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h2.title-secund{
+    margin-top: 0;
+    color: rgb(8, 123, 64);
+    font-weight: bolder;
+}
+
+h2.title-classic{
+    color: rgb(8, 123, 64);
+    font-weight: bolder;
+    background-color: rgba(8, 123, 64, 0.108);
+    padding: 8px;
+}
+
+p.paragraph{
+    padding: 8px;
+}
+
+section.footer-main{
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    color: black;
+    margin: 0px 200px 0px 200px;
+    margin-top: 0px;
+    padding: 10px;
+
+}
+
+div.footer-secund{
+    background-color: #4cf8cad0;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+p.paragraph-main{
+    background-color: rgb(8, 123, 64);
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+footer{
+    background-color: rgb(8, 123, 64);
+}
+
+p.paragraph-footer{
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding: 10px;
+}
+
+@media(max-width: 1242px){
+    img.img{
+        width: 50vw;
+    
+    }
+
+    iframe{
+        width: 50vw;
+    }
+}
+
+@media(max-width: 896px){
+    img.img{
+        width: 30vw;
+        margin-left: 15%;
+    
+    }
+
+    iframe{
+        width: 45vw;
+        height: 30vw;
+        margin-left: 10%;
+    }
+
+     img.img-android{
+        width: 30vw;
+        margin-left: 15%;
+    }
+        
+    }
+
+    @media(max-width: 768px){
+        iframe{
+            width: 30vw;
+        }
+
+        h2.title-secund{
+            font-size: 15px;
+        }
+        
+        h2.title-classic{
+            font-size: 15px;
+        }
+        
+        p.paragraph{
+            font-size: 15px;
+        }
+
+        main{
+            margin: 0px 90px 0px 90px;
+        }
+
+        section.video{
+            margin: 0px 90px 0px 90px;
+        
+        }
+
+        section.footer-main{
+            margin: 0px 90px 0px 90px;
+        
+        }
+    }
